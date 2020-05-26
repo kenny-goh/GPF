@@ -1,0 +1,14 @@
+coverage
+build
+dist
+npm-debug.log
+tmp
+.vscode/
+.settings/
+.classpath
+.project
+.idea
+target
+**.iml
+bin
+.DS_Store
