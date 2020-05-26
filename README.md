@@ -4,6 +4,7 @@ terminals and GP parameters.
 
 Let's use a minimal example to solve a symbolic regression problem:
 
+```
 def add(x, y): return x + y
 def sub(x, y): return x - y
 def mul(x, y): return x * y
@@ -32,7 +33,6 @@ gpf = GPF( dataset_function=quadratic_func,
 
 gpf.run()
 
-```
 Resulting program:
     add
     ├── add
